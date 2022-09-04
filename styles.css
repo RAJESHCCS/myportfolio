@@ -1,0 +1,216 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.navbar{
+  height:50px;
+  width: 100%;
+  display:flex;
+  background-color:#BFFFF0;
+  justify-content: space-between;
+  padding:0 70px;
+  align-items: center;
+  font-size: 25px;
+}
+.logo img{
+  position: relative;
+  top: 3px; 
+}.logo span{
+  font-size: 2rem;
+  margin-left: 10px;
+  margin-top: 9px;
+}
+/* .logo{
+
+} */
+a{
+  text-decoration: none;
+  
+}
+div.logo a{
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold; 
+}
+div.logo:hover{
+  background-color:hsl(199, 100%, 50%)
+  
+}
+div.li ul a{
+  /* width: 40%; */
+  padding: 12px 14px;
+  text-align: right;  
+  margin-top: 100px;font-weight: bold;
+  
+  /* align-items: center; */
+}
+.li
+{
+  height: 50px;
+  width:40%;
+  display: flex;
+  justify-content:space-evenly;
+  align-items: center;
+}
+a:hover{
+  background-color: greenyellow;
+
+  border-radius:5px;
+}
+.container{
+  height: 100vh;
+  /* width: 100%; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding:5px 90px;
+  padding-right: 90px;
+  padding-top: 80px;
+  background-color: #F0FFC2;
+  
+}
+div.left p{
+font-size: 25px;
+font-weight: bold;
+font-style: italic;
+font-family: 'Sansita Swashed', cursive;
+
+}
+
+.container .btn{
+  box-shadow: 1px 2px 3px 4px ;
+  background-color: black;
+  color:aqua;
+  font-size: 25px;
+  padding: 10px;
+  border-radius: 10px;
+  /* margin-top: 100px; */
+  line-height: 10ch;
+ 
+}
+div.left a{
+  margin-left: 10px;
+
+}
+
+.right lottie-player svg {
+  /* margin-bottom: 100px; */
+  height: 900%; 
+  width:100%;
+  border: 2px solid black;
+  padding:10%;
+ 
+}
+div.left h1{
+  font-size: 6rem;
+  line-height: 2ch;
+}
+.btn:hover{
+  background-color: plum;
+  transition: all 0.5s;
+}
+.div3{
+  background-color: #FFE4C0;
+  height:100vh;
+  width: 100%;
+  display: flex;
+  justify-content:space-between;
+}
+.div3 img{
+  height: 200px;
+ width:170px;
+  border-radius: 100px;
+  border-style: groove;
+}
+.div3 h1{
+  font-size: 50px;  
+}
+.div3.h1 span{
+  text-align: right;
+}
+.div3 h2 {
+  color:red;
+  align-items: flex-end;
+}
+.div4{
+  background-color: #FFBBBB;
+/* background-color: aquamarine; */
+  height:100vh;
+  width: 100%;
+  margin: auto;
+/* grid-template-rows: 2px,2px,2px,2px ; */
+border: 2px solid red; 
+/* display: flex;
+justify-content: space-evenly; */
+
+ }
+
+.nav-bar{
+  height: 10vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  font-size: large;
+  background-color: aquamarine;
+  
+  /* border: 2px solid red; */
+  box-shadow: 5px 5px 5px 5px salmon;
+}
+.box-display{
+  height: 100%;
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.div4 p1 {
+  height: 35%;
+  width: 15%;
+  background-color: #555;
+}
+.div4 p0 {
+  height: 35%;
+  width: 15%;
+  font-size: 20px;
+  align-items: center;
+  background-color: rgb(168, 102, 102);
+}
+.div4 p3 {
+  height: 35%;
+  width: 15%;
+  background-color: rgb(189, 119, 119);
+  }
+.div4 p2 {
+    height: 35%;
+    width: 15%;
+    background-color: #555;
+    }
+.div5{
+  /* background-color: #FFBBBB; */
+  background-color: aquamarine;
+  height:100vh;
+  width: 100%;
+  
+}
+h6{
+  font-size: 25px;
+  text-align: center;
+}
+a{
+  font-size: 25px;
+  /* display: grid; */
+  /* display: flex; */
+  text-align: end;
+  text-align: center;
+  background-color: bisque;
+  padding-right: 10px;
+  border-radius: 10px;
+  margin:10px;
+  box-shadow: 10px,10px,10px,10px red;
+}
+.project{
+  background-color: yellow;
+  padding :2vh 0;
+  margin:auto;
+}
